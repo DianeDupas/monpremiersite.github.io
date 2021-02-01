@@ -1,0 +1,262 @@
+*  {
+    margin : 0;
+    padding : 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+   font-family: "Poppins"; 
+}
+
+section#sec-1{
+    width: 100% ;
+    height: 100vh;
+    background: linear-gradient(to bottom , #ae85fe,#8666ff);
+}
+
+section#sec-1 .bg{
+    height: 100%;
+    
+    background-position: left center;
+    background-size: contain;
+    background-repeat:  no-repeat;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+section#sec-1 .bg .container{
+    text-align: center;
+    color:white;
+}
+
+section#sec-1 .bg .container h1{
+    font-size: 5em;
+}
+
+section#sec-1 .bg .container p{
+    font-size: 3em;
+    margin-bottom: 50px;
+}   
+
+section#sec-1 .bg .container a.title-btn{
+    background-color: white;
+    padding: 1em 2em;
+    border-radius: 50px;
+    color :#8a69ff;
+    font-weight: 500 ;
+    text-transform: uppercase;
+}  
+
+@media screen and (max-width: 500px){
+    section#sec-1 .bg .container h1 {
+font-size: 3.5em;
+    } 
+} 
+section#sec-1 .bg .container p{
+    font-size: 1.2em;
+    margin-bottom: 50px ;
+} 
+
+@media screen and (max-width: 350px){
+    section#sec-1 .bg .container h1 {
+font-size: 2.5em;
+    } 
+} 
+section#sec-1 .bg .container p{
+    font-size: 1em; 
+}
+
+
+section#sec-2 {
+    padding: 80px 10px;
+}    
+
+section#sec-2 > h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color:#181b3a;
+    font-weight: 500;
+    margin-bottom : 30px;
+} 
+
+section#sec-2> p {
+    max-width: 800px;
+    text-align: center;
+    color: #637282;
+    margin: 0 auto ;
+} 
+
+section#sec-2 .container{
+    max-width: 1400px;
+    display: flex;
+    justify-content: center ;
+    flex-direction: row;
+    margin: 70px auto 0 auto ;
+} 
+
+section#sec-2 .container .skill{
+   text-align: center;
+} 
+
+section#sec-2 .container .skill h2{
+color: #181b3a;
+font-weight: 500;
+margin: 10px 0;
+} 
+
+section#sec-2 .container .skill p {
+color: #637282;
+max-width: 380;
+padding: 0 10px;
+margin: 0 auto;
+} 
+
+@media screen and (max-width:700px){
+   section#sec-2> h1 {
+       font-size: 2em;
+    } 
+   
+    section#sec-2 .container{
+flex-direction: column;
+    }       
+
+section#sec-2 .container .skill  {
+margin: 25px 0;
+} 
+
+    section#sec-2 .container .skill p  {
+       max-width: 95%; 
+} 
+} 
+
+section#sec-3 {
+    background-color: #f7f7f7;
+    padding:80px 0 ;
+}
+
+section#sec-3 .container {
+max-width: 1400px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+} 
+
+section#sec-3 .container .left {
+max-width: 500px;
+} 
+
+section#sec-3 .container .left img{
+    width: 100%;
+}   
+
+section#sec-3 .container .right{
+max-width: 45%;
+} 
+
+section#sec-3 .container .right h1 {
+font-size: 2.5em;
+color: #181b3a;
+font-size: 500;
+margin-bottom: 30px;
+}   
+
+section#sec-3 .container .right p {
+color: #637282;
+margin-bottom: 30px;
+} 
+
+section#sec-3 .container .right p  :nth-of-type(2){
+margin-bottom: 100px;
+} 
+
+section#sec-3  .container  .right a.cta-btn{
+    background: linear-gradient(to bottom,#ae85fe,#8666ff);
+    padding: 1em 2em ;
+    border-radius: 50px;
+    color : #ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+} 
+
+
+@media screen and (max-width:991px){
+    selection#sec-3 .container .left{
+        max-width: 350px;
+    }
+
+    section#sec-3 .container .right{
+        max-width: 55%;
+}
+}
+
+@media screen and (max-width:750px){
+section#sec-3 .container {
+    flex-direction: column;
+}
+
+section#sec-3 .container .left {
+    max-width: 350px;
+    margin-bottom: 25px;
+}
+
+section#sec-3 .container .right{
+    max-width: 95%;
+} 
+}
+
+@media screen and (max-width:500px){
+     section#sec-3 .container  .right h1 {
+  font-size: 2em;
+    } 
+}
+
+footer{
+background-color: #2e303c;
+padding: 80px  10px;
+}
+
+footer .container  {
+    max-width: 1400px;
+    margin : 0 auto;
+}
+
+footer .container .title h1{
+font-weight: 500;
+color:white;
+}
+
+footer .container .text {
+margin-top: 30px;
+display: flex;
+}
+
+footer .container .text p {
+color:white;
+max-width: 700px;
+margin-right: 100px;
+}
+
+footer .container .text .menu {
+margin-right: 50px;
+}    
+
+footer .container .text .menu h5 {
+    color:white;
+    font-size: 1.5em;
+    font-weight: 500;
+    }
+    
+    footer .container .text .menu li {
+        color:rgb(207, 207, 207);
+        margin-left: 5px;
+        margin-top: 10px;
+         }
+
+@media screen and (max-width:1100px){
+    footer .container .text p{
+        margin-right: 50px;
+    }
+}
